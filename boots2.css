@@ -1,0 +1,80 @@
+:root{
+    --esasReng:rgb(44 62 80)
+}
+header{
+    background-color: var(--esasReng);
+}
+.reng{
+    background-color: rgb(26 188 156);
+}
+.sekil{
+    margin-top: 100px;
+}
+.person{
+    width: 220px;
+}
+.yazi{
+    font-size: 69px;
+}
+.ag{
+    width: 120px;
+    height: 4px;
+}
+.uc{
+    gap: 20px;
+}
+.goy2{
+color: var(--esasReng);
+}
+.goy{
+    background-color: var(--esasReng);
+    width: 100px;
+    height: 4px;
+}
+.star{
+    color: var(--esasReng);
+}
+.portfolio{
+    margin-top: 50px;
+}
+.pic{
+    width: 100%;
+}
+.ancaq-hoverle{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:  rgb(26 188 156);
+
+    opacity: 0;
+    visibility: hidden;
+    transition-duration: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hoverli:hover .ancaq-hoverle{
+    opacity: 0.9;
+    visibility: visible;
+}
+.esas{
+    margin-top: 85px;
+}
+.subtitle{
+    font-size: 10px;
+}
+.goyb{
+    background-color: rgb(26 188 156);
+    border-color: rgb(26 188 156);
+}
+.color{
+    background-color: #3f566b;
+}
+.last{
+    background-color: var(--esasReng);
+}

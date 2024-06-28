@@ -1,0 +1,71 @@
+:root{
+    --esasReng:rgb(244, 98, 58)
+}
+*{
+    font-family: 'Merriweather', sans-serif ;
+}
+header{
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(./bg-masthead.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.basliq-yazi{
+    /* margin: 100px 0; */
+    padding: 100px 0;
+}
+.header-title{
+    font-size: 2.25rem;
+}
+@media (min-width:1200px){
+    .header-title{
+        font-size: 3.5rem;
+    }
+}
+.xett{
+    width: 70px;
+    height: 2px;
+    background-color: var(--esasReng);
+}
+
+.bg-narinci{
+    background-color: var(--esasReng);
+}
+.alt-text{
+    font-size: 1.15rem;
+}
+
+
+
+.ancaq-hoverle{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--esasReng);
+
+    opacity: 0;
+    visibility: hidden;
+    transition-duration: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hoverli:hover .ancaq-hoverle{
+    opacity: 0.8;
+    visibility: visible;
+}
+
+.text-narinci{
+    color: var(--esasReng);
+}
+
+.reng{
+background-color: var(--esasReng);
+
+}
